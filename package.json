@@ -1,0 +1,31 @@
+{
+  "name": "sandbox-babel-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "7.1.5",
+    "@babel/core": "7.1.5",
+    "@babel/plugin-proposal-class-properties": "7.1.0",
+    "@babel/plugin-proposal-export-default-from": "7.0.0",
+    "@babel/plugin-proposal-export-namespace-from": "7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "7.0.0",
+    "@babel/preset-env": "7.1.5",
+    "@babel/preset-flow": "7.0.0",
+    "@babel/preset-react": "7.0.0",
+    "@kogai/typed_i18n": "0.5.15",
+    "babel-loader": "^8.0.4",
+    "webpack": "4.25.1",
+    "webpack-cli": "3.1.2"
+  },
+  "dependencies": {
+    "unfetch": "4.0.1"
+  }
+}
